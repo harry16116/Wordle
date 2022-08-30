@@ -1,0 +1,21 @@
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  box-shadow: 0 0 0 1px;
+  line-height: 100px;
+  font-size: 75px;
+  cursor: pointer;
+}
+
+#gamebox {
+  font-family: cursive;
+  text-align: center;
+  padding: 100px;
+}
+#cells {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  margin: auto;
+}
